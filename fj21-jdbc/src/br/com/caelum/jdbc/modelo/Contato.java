@@ -39,6 +39,4 @@ public class Contato {
 	public void setDataNascimento(Calendar dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-    
-    
 }

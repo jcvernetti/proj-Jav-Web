@@ -41,7 +41,7 @@ public class ContatoDao {
             stmt.execute();
             stmt.close();
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new DAOException();
         }
     }
     
@@ -73,7 +73,7 @@ public class ContatoDao {
             stmt.close();
             return contatos;
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new DAOException();
         }
     }
     
@@ -94,7 +94,7 @@ public class ContatoDao {
             stmt.execute();
             stmt.close();
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new DAOException();
         }
     }
 
@@ -107,9 +107,7 @@ public class ContatoDao {
             stmt.execute();
             stmt.close();
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new DAOException();
         }
     }
-
-    
 }

@@ -13,12 +13,12 @@ public class TesteAltera {
 
 		Contato contato = new Contato();
 
-		long id = 3;
+		long id = 4;
 
 		contato.setId(id);
-		contato.setNome("Nara Leão");
-		contato.setEmail("naraleao@gmail.com");
-		contato.setEndereco("Rua do ouvidor, 345");
+		contato.setNome("Rejane Teresa");
+		contato.setEmail("rejaneteresa@gmail.com");
+		contato.setEndereco("Avenida Taquara, 72");
 		Calendar novaData = Calendar.getInstance();
 
 		contato.setDataNascimento(novaData);
@@ -36,5 +36,4 @@ public class TesteAltera {
 			System.out.println("Data de Nascimento: " + contatonovo.getDataNascimento().getTime() + "\n");
 		}
 	}
-
 }

@@ -22,7 +22,6 @@ public class TestaLista {
 			System.out.println("Endereço: " + contato.getEndereco());
 			System.out.println("Data de Nascimento: " + contato.getDataNascimento().getTime() + "\n");
 		}
-
 	}
 
 }
