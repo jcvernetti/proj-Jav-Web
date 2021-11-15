@@ -15,7 +15,7 @@ public class TestaLista {
 		// Lista os contatos com o DAO:
 		List<Contato> contatos = dao.getLista();
 
-		// Iterar nessa lista e imprima as informações dos contatos:
+		// Iterar nessa lista e imprimir as informações dos contatos:
 		for (Contato contato : contatos) {
 			System.out.println("Nome: " + contato.getNome());
 			System.out.println("Email: " + contato.getEmail());

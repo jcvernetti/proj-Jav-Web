@@ -8,21 +8,21 @@ import br.com.caelum.jdbc.modelo.Contato;
 public class TestaInsere {
 
 	public static void main(String[] args) {
-		
+
 		// pronto para gravar
-		  Contato contato = new Contato();
-		  contato.setNome("João");
-		  contato.setEmail("joao@gmail.com");
-		  contato.setEndereco("Rua Conselheiro, 2021");
-		  contato.setDataNascimento(Calendar.getInstance());
+		Contato contato = new Contato();
+		contato.setNome("Maria Joana");
+		contato.setEmail("mariajoana@gmail.com");
+		contato.setEndereco("Rua do ouvidor, 345");
+		contato.setDataNascimento(Calendar.getInstance());
 
-		  // grave nessa conexão!!!
-		  ContatoDao dao = new ContatoDao();
+		// grave nessa conexão!!!
+		ContatoDao dao = new ContatoDao();
 
-		  // método elegante
-		  dao.adiciona(contato);
+		// método elegante
+		dao.adiciona(contato);
 
-		  System.out.println("Gravado!");
+		System.out.println("Gravado!");
 
 	}
 
