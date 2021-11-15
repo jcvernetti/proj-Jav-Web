@@ -9,7 +9,8 @@ public class Contato {
     private String email;
     private String endereco;
     private Calendar dataNascimento;
-	public Long getId() {
+	
+    public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
